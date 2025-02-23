@@ -118,4 +118,18 @@ display: block;
     font-weight: bold;
     font-family: "Arial";
     text-decoration: none;
+    border: #3f4852 solid 1px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+}
+
+.second_menu a:hover{
+    background-color: #3f4852;
+}
+
+.holudulnuk_menu a:hover+.sub-menu{
+ display: block;
+ transition: all 1s ease;
+ padding: 0px;
 }
